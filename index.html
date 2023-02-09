@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/css/normalize.css">
   <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/banner.css">
   <title>Fashion trends</title>
 </head>
 
@@ -27,6 +28,14 @@
         <div class="face-wash-img">
           <img src="img/face-wash.png" alt="Face wash agent">
         </div>
+        <form class="banner-form">
+          <fieldset>
+            <label id="email-label" for="email">Subscribe to the newsletter !<input id="email" type="email"
+                name="email-label" placeholder="Enter your email..." />
+            </label>
+          </fieldset>
+          <input id="submit" type="button" value="Subscribe">
+        </form>
       </div>
       <div class="right-block">
         <div>
@@ -49,7 +58,7 @@
     </div>
   </section>
 
-  <script src="src/js/index.js"></script>
+  <script type="module" src="src/js/index.js"></script>
 
 </body>
 

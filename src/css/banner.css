@@ -1,0 +1,70 @@
+.banner-form {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(152, 221, 244);
+  text-align: center;
+}
+
+.banner-show {
+  display: block;
+}
+
+.banner-hide {
+  display: none;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+#email-label ::placeholder,
+fieldset input {
+  font-size: 16px;
+}
+
+fieldset input {
+  margin: 10px 0 10px 0;
+  padding-left: 10px;
+  width: 80%;
+  min-height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #5e5e5e35;
+  border-radius: 5px;
+  color: #222222;
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  margin-top: 50%;
+  border-bottom: 1px solid #3b3b4f64;
+}
+
+input[type="button"] {
+  background-color: rgb(233, 194, 121);
+  color: #2f2f2f;
+  font-weight: 600;
+  font-size: 30px;
+  border: 0;
+  border-radius: 10px;
+  margin: 0;
+  margin-top: 10%;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(234, 210, 166);
+  color: #454545;
+}
+
+#submit:active {
+  background-color: rgb(234, 223, 204);
+  color: #202020;
+}
