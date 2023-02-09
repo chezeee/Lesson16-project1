@@ -1,0 +1,140 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  color: #18191F;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  padding: 48px 285px;
+}
+
+.left-block {
+  position: relative;
+  width: 540px;
+  height: 627px;
+  float: left;
+
+}
+
+.perfume-img,
+.lipstick-img,
+.face-wash-img {
+  position: absolute;
+}
+
+.perfume-img {
+  top: 0;
+  right: 31px;
+}
+
+.lipstick-img {
+  bottom: 98px;
+  left: 33px;
+}
+
+.face-wash-img {
+  right: 134px;
+  bottom: 27px;
+}
+
+.perfume-img::after,
+.lipstick-img::after,
+.face-wash-img::after {
+  position: absolute;
+  content: '';
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.perfume-img::after {
+  right: -31px;
+  bottom: 62px;
+  background-color: #A0DCFF;
+
+}
+
+.lipstick-img::after {
+  bottom: 65px;
+  left: -33px;
+  background-color: #FFC3D8;
+}
+
+.face-wash-img::after {
+  right: -23px;
+  bottom: -27px;
+  width: 56px;
+  height: 56px;
+  background-color: #C1E5C0;
+}
+
+.right-block {
+  width: 444px;
+  float: right;
+  margin: 21.5px 48px;
+
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.perfume::before,
+.lipstick::before,
+.face-wash::before {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  margin-right: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.perfume::before {
+  background-color: #A0DCFF;
+}
+
+.lipstick::before {
+  background-color: #FFC3D8;
+}
+
+.face-wash::before {
+  background-color: #C1E5C0;
+}
+
+.right-block h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 8px;
+}
+
+.right-block p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.get-indents {
+  margin: 40px 0;
+}
